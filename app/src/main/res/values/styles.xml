@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/button_size</item>
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_size</item>
+        <item name="android:layout_marginBottom">@dimen/margin_size</item>
+    </style>
+
+    <style name="ButtonStyle2">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/button_size</item>
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_size2</item>
+        <item name="android:layout_marginBottom">@dimen/margin_size2</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:color">@color/textColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">@dimen/margin_size</item>
+    </style>
+
+    <style name="TilesStyle">
+        <item name="android:layout_height">@dimen/tileDimens</item>
+        <item name="android:layout_width">@dimen/tileDimens</item>
+        <item name="android:background">@drawable/whosthatpokemon</item>
+        <item name="android:layout_marginRight">@dimen/margin_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin_size</item>
+        <item name="android:layout_marginBottom">@dimen/margin_size</item>
+        <item name="android:layout_marginTop">@dimen/margin_size</item>
+    </style>
+
+    <style name="ButtonFragmentTextStyle">
+        <item name="android:textSize">@dimen/button_size</item>
+        <item name="android:layout_marginTop">@dimen/tileMargin</item>
+        <item name="android:layout_marginBottom">@dimen/tileMargin</item>
+        <item name="android:layout_marginLeft">@dimen/tileMargin</item>
+        <item name="android:layout_marginRight">@dimen/tileMargin</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+</resources>

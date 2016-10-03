@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="StartupTitle">Welcome to Pokemon Memory!</string>
+    <string name="StartupNewGame">New Game</string>
+    <string name="StartupContinue">Continue</string>
+    <string name="StartupAbout">About</string>
+    <string name="Clicks">Clicks:</string>
+    <string name="Score">0</string>
+</resources>
