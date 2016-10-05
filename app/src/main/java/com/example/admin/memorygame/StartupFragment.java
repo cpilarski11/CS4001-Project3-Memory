@@ -18,11 +18,11 @@ import android.widget.Button;
  */
 public class StartupFragment extends Fragment {
     // instance variables
-    Button newGame = null;
+    private Button newGame = null;
     //Button continueGame = null;
-    Button about = null;
+    private Button about = null;
     private AlertDialog mDialog;
-    MediaPlayer mediaPlayer = null;
+    private MediaPlayer mediaPlayer = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

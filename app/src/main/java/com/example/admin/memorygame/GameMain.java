@@ -15,9 +15,9 @@ import static java.security.AccessController.getContext;
 public class GameMain extends Activity{
 
     // instance variables
-    TextView clickScore = null;
-    public MediaPlayer mediaPlayer = null;
-    Handler h = null;
+    private TextView clickScore = null;
+    private MediaPlayer mediaPlayer = null;
+    private Handler h = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

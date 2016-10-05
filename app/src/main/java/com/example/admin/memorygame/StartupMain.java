@@ -12,7 +12,7 @@ import static java.security.AccessController.getContext;
 public class StartupMain extends Activity {
 
     // create a media player
-    MediaPlayer mediaPlayer = null;
+    private MediaPlayer mediaPlayer = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

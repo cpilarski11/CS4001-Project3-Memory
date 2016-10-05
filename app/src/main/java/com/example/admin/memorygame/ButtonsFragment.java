@@ -18,9 +18,9 @@ import android.widget.TextView;
 public class ButtonsFragment extends Fragment {
 
     // instance variables
-    Button restartGame = null;
-    Button quitGame = null;
-    TextView clicks = null;
+    private Button restartGame = null;
+    private Button quitGame = null;
+    private TextView clicks = null;
     private AlertDialog mDialog;
 
     @Override
