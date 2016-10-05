@@ -9,4 +9,6 @@
     <dimen name="button_width">300dp</dimen>
     <dimen name="tileDimens">100dp</dimen>
     <dimen name="tileMargin">10dp</dimen>
+    <dimen name="progressMargin">8dp</dimen>
+    <dimen name="progressLayout">50dp</dimen>
 </resources>

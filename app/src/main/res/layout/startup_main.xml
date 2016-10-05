@@ -9,13 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".StartupMain"
     android:gravity="center"
-    android:background="@drawable/pokewall">
+    android:background="@drawable/wpokeback">
 
     <fragment
+        android:id="@+id/startupFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout="@layout/startup_fragment"
         android:layout_gravity="center"
+        class="com.example.admin.memorygame.StartupFragment"
         >
 
     </fragment>

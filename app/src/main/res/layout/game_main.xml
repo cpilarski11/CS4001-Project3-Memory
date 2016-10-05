@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pokewall">
-
-    <fragment
-        android:id="@+id/tilesFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/tiles_fragment"
-        android:layout_gravity="center">
-
-    </fragment>
-
-    <fragment
-        android:id="@+id/buttonsFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/buttons_fragment"
-        android:layout_gravity="center">
-
-    </fragment>
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.memorygame.GameMain"
+    android:background="@drawable/wpokeback">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilesFragment"
+            class="com.example.admin.memorygame.TilesFragment"
+            tools:layout="@layout/tiles_fragment"
+            />
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonsFragment"
+            class="com.example.admin.memorygame.ButtonsFragment"
+            tools:layout="@layout/buttons_fragment"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/thinking"/>
+</FrameLayout>

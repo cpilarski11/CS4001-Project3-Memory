@@ -6,4 +6,20 @@
     <string name="StartupAbout">About</string>
     <string name="Clicks">Clicks:</string>
     <string name="Score">0</string>
+    <string name="About">This is a memory matching game using Pokemon images
+    where you need to match all the tiles in as few clicks as possible. Enjoy!</string>
+    <string name="ok_label">OK</string>
+    <string name="Ending">Are you sure you want to quit this current game? All
+    progress will be lost.</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="winGame">Congratulations! You Win! Press Restart Game to start a new game
+    or press Quit Game to leave. </string>
+    <string name="valueFrom">180</string>
+    <string name="valueTo">0</string>
+    <string name="valueFrom2">0.0</string>
+    <string name="valueTo2">1.0</string>
+    <string name="ValueFrom3">-180</string>
+    <string name="valueTo3">0</string>
+    <string name="alpha">alpha</string>
+    <string name="rotationY">rotationY</string>
 </resources>
